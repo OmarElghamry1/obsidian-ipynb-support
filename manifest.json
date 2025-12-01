@@ -1,0 +1,10 @@
+{
+  "id": "obsidian-ipynb-support",
+  "name": "ipynb support",
+  "version": "0.1.0",
+  "minAppVersion": "1.4.0",
+  "description": "Preview Jupyter .ipynb notebooks directly inside Obsidian. and futurly edit them too!",
+  "author": "Omar Elghamry",
+  "authorUrl": "https://github.com/OmarElghamry1",
+  "isDesktopOnly": true
+}

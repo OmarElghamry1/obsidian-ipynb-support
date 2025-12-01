@@ -1,0 +1,53 @@
+.ipynb-viewer {
+  padding: 1rem;
+  overflow: auto;
+}
+
+/* Markdown cell styling */
+.ipynb-markdown-cell {
+  margin-bottom: 1rem;
+}
+
+/* Code cell styling */
+.ipynb-code-cell {
+  margin: 0.75rem 0;
+}
+
+.ipynb-code-header {
+  font-size: 0.8em;
+  opacity: 0.7;
+  margin-bottom: 0.25rem;
+}
+
+.ipynb-code-cell pre {
+  padding: 0.5rem;
+  border-radius: 4px;
+  background-color: var(--background-secondary);
+  font-family: var(--font-monospace);
+  font-size: 0.9em;
+  overflow-x: auto;
+}
+
+/* Outputs */
+.ipynb-output-container {
+  margin: 0.25rem 0 1rem;
+  padding-left: 0.75rem;
+  border-left: 2px solid var(--background-modifier-border);
+}
+
+.ipynb-output-text {
+  margin: 0.25rem 0;
+  white-space: pre-wrap;
+  font-family: var(--font-monospace);
+  font-size: 0.85em;
+}
+
+.ipynb-output-image {
+  max-width: 100%;
+  display: block;
+  margin: 0.5rem 0;
+}
+
+.ipynb-output-html {
+  margin: 0.25rem 0;
+}
